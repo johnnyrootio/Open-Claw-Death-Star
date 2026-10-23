@@ -1,0 +1,12 @@
+[Unit]
+Description=Tailscale Serve: OpenClaw on HTTPS 8443 at /openclaw
+After=tailscaled.service network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/bin/tailscale serve --bg --https=8443 http://127.0.0.1:18789
+
+[Install]
+WantedBy=multi-user.target
