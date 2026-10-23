@@ -132,3 +132,9 @@ Historical notes: `openclaw-death-star-install.md` (marked removed).
 
 - **LLM / Death Star reference:** [llm-death-star](https://github.com/johnnyrootio/llm-death-star) → `death-star-reference.md`
 - **This folder:** OpenClaw install notes are historical only
+
+---
+
+## Cursor: share this config with every session
+
+See **[cursor-death-star-rules.md](cursor-death-star-rules.md)** (also in [llm-death-star](https://github.com/johnnyrootio/llm-death-star)).
